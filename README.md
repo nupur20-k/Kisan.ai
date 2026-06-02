@@ -106,19 +106,4 @@ Body: {"N":80,"P":40,"K":40,"temperature":26,"humidity":80,"ph":6.5,"rainfall":2
 
 ---
 
-## 🚀 HACKATHON UPGRADE IDEAS
 
-1. **Live weather API** — use OpenWeatherMap free API to auto-fill temperature/humidity/rainfall by GPS location
-2. **Disease detection** — add image upload + TensorFlow.js model to detect crop diseases from leaf photos
-3. **Offline PWA** — add service worker to make the app work without internet (great for rural areas)
-4. **Government scheme alerts** — scrape PM-Kisan and other scheme data to show relevant schemes
-5. **Market price API** — connect to Agmarknet API for real mandi prices
-
----
-
-## 💡 QUICK NOTES
-
-- The app works **fully offline** without the Python backend (uses in-browser JS prediction)
-- Adding the Python backend gives **real ML model accuracy (~99%)**
-- Voice input works in **Chrome only** (Web Speech API)
-- Multilingual support: **English, Hindi, Marathi**
